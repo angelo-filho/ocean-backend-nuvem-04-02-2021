@@ -5,7 +5,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 (async () => {
     const url = 'mongodb+srv://admin:fQ7Diyd7hoTNo1fL@cluster0.cjh8u.mongodb.net/ocean_db?retryWrites=true&w=majority';
 
-    const dbName = 'ocean_database_03_02_2021';
+    const dbName = 'ocean_db';
 
     console.info('Conectando ao banco de dados...');
 
